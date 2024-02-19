@@ -405,12 +405,9 @@ buckets:
   - name: tempo
     policy: none
     purge: false
-  - name: mimir-tsdb
+  - name: loki
     policy: none
-    purge: false
-  - name: mimir-ruler
-    policy: none
-    purge: false
+    purge: false    
   #   # Name of the bucket
   # - name: bucket1
   #   # Policy to be set on the
